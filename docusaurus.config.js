@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ahoj18/SCP-Nadace/tree/master/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ahoj18/SCP-Nadace/tree/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,8 +71,8 @@ const config = {
           },
           {to: '/blog', label: 'Aktuality:', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.roblox.com/groups/8961727/SCP-Nadace#!/about',
+            label: 'Group',
             position: 'right',
           },
         ],
@@ -98,7 +98,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/vDRe4M5Fjk',
               },
             ],
           },
@@ -112,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SCP Nadace, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SCP Nadace`,
       },
       prism: {
         theme: lightCodeTheme,
